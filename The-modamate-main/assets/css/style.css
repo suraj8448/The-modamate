@@ -1,0 +1,474 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.top-nev-font-size {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.flash {
+    color: rgb(255, 242, 0);
+}
+
+.social-icons {
+    font-size: 15px;
+
+    color: black;
+}
+
+.social-icons li a {
+    color: white;
+}
+
+.shop-now {
+    color: white;
+}
+
+.phone-text {
+    color: white;
+    font-size: 14px;
+}
+
+.phone-text a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.shop-now:hover,
+.social-icons li:hover a {
+    color: #dd5621;
+}
+
+.into {
+    width: 100px;
+    background-color: white;
+}
+
+.search-icon {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    background-color: black;
+
+}
+
+.search-icon {
+    padding: 8px;
+    font-size: 13px;
+    color: white;
+}
+
+.the-logo {
+    width: 165px;
+}
+
+.nev2-list li a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0.7s;
+
+
+}
+
+.nev2-list li a i {
+    color: white;
+}
+
+/* .nev2-list li:hover i {
+    color:black;
+    } */
+.nav-menu {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.foot-titles {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.foot-phone span {
+    font-size: 18px;
+}
+
+/* .foot-p{
+    font-size: 1px;
+} */
+.help-and-support li a,
+.company-info li a {
+    font-size: 17px;
+    color: white;
+
+}
+
+.help-and-support li:hover a,
+.company-info li:hover a {
+    color: #dd5621;
+}
+
+.back-round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.icon-back a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+
+
+
+}
+
+.the-col1,
+.the-col2,
+.col-bg-image1,
+.col-bg-image2 {
+
+    overflow: hidden;
+}
+
+.col-bg-image1,
+.col-bg-image2 {
+    background-position: center center;
+    background-size: cover;
+    transition: 2s;
+    width: 100%;
+    height: 400px;
+}
+
+.col-bg-image1:hover,
+.col-bg-image2:hover {
+    transform: scale(1.2);
+}
+
+.shop-w-btn,
+.shop-m-btn {
+    position: absolute;
+    left: 258px;
+    bottom: 35px;
+}
+
+.shop-p {
+    font-size: 21px;
+
+}
+
+.the-shop-btn,
+.check-out-and-faq,
+.discover-me,
+.video-btn,
+.banner-shop-button,
+.shop-all-btn-mens-sec {
+    border: 0;
+    padding: 13px 37px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.the-shop-btn:hover,
+.check-out-and-faq:hover,
+.discover-me:hover,
+.video-btn:hover,
+.banner-shop-button:hover,
+.shop-all-btn-mens-sec:hover {
+    background-color: #dd5621;
+    color: white;
+}
+
+.welcome-p {
+    letter-spacing: 4px;
+    font-size: 17px;
+}
+
+.welcome-p1 {
+    font-size: 38px;
+
+}
+
+.welcome-p2 {
+    font-size: 16px;
+
+}
+
+.icon-img a img:hover {
+    transform: scale(1.2);
+}
+
+.welcome-to-modamate {
+    padding: 114px 0;
+}
+
+.check-out-and-faq {
+    margin-top: 52px;
+}
+
+.discover-me {
+    position: absolute;
+    left: 150px;
+    bottom: 35px;
+}
+
+.the-video {
+    width: 100%;
+    /* height:746px; */
+}
+
+.video-cover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+
+}
+
+.video-p1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.video-p2 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.video-p3 {
+    font-size: 22px;
+}
+
+.shop-the-look-sec {
+    padding: 100px 0;
+    background-color: rgb(228, 223, 223);
+}
+
+.shop-the-look-title {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.shop-the-look-p {
+    font-size: 17px;
+}
+
+.shop-the-look {
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    padding: 12px;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-weight: 800;
+    display: none;
+    transition: 1s;
+}
+
+/* .main-image-div{
+    transition: 1s;
+   } */
+.main-image-div {
+    overflow: hidden;
+    transition: 2s;
+}
+
+.main-image-div:hover .shop-the-look {
+    display: block;
+}
+
+.shop-the-look:hover {
+    background-color: #dd5621;
+    color: aliceblue;
+}
+
+.main-image-div:hover img {
+    transform: scale(1.3) rotate(10deg);
+    transition: 2s;
+
+}
+
+.carousel-text {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+
+.banner-test-small {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.banner-test-medium {
+    font-size: 69px;
+    font-weight: 500;
+}
+
+.banner-test-big {
+    font-size: 110px;
+    font-weight: 800;
+}
+
+.banner-p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.left-d-icon i,
+.right-d-icon i {
+
+
+    padding: 17px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.shop-all-btn-mens-sec {
+    border: 0;
+    padding: 13px 37px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+.shop-all-btn-mens-sec:hover {
+    background-color: #dd5621;
+    color: white;
+}
+
+.outfitname-boys-sec a {
+    font-size: 15px;
+    color: black;
+}
+
+.outfitname-boys-sec a:hover {
+    color: #dd5621;
+}
+
+.outfit-reviews {
+    font-size: 13px;
+}
+
+.star,
+.half-star {
+    color: gold;
+}
+
+.star-no-star {
+    color: rgb(210, 199, 199);
+}
+
+.five-reviews-text {
+    color: rgb(210, 199, 199);
+}
+
+.outfit-price {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.available-color-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(210, 199, 199);
+}
+
+.like-and-quickview span i {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+.the-main-img-col-div{
+    overflow:hidden;
+}
+
+.like-and-quickview {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    width:38px;
+    transition: 1s cubic-bezier(0.42, 0, 0.52, 1.4);
+    transform: translateX(54px);
+}
+.btn-div {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    transition: 1s cubic-bezier(0.42, 0, 0.52, 1.4);
+    transform: translateY(100px);
+}
+.the-top-main:hover .like-and-quickview  {
+  transform: translateX(0);
+
+}
+.the-top-main:hover .btn-div   {
+    transform: translateY(0);
+  
+  }
+
+
+.btn-div button {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 8px 28px;
+
+}
+
+.color-option-circles span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    outline: 1px solid black;
+    outline-offset: 2px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+
+}
+.the-second-main-div{
+    overflow:hidden;
+    position: relative;
+}
+.color-option-circles{
+    position: absolute;
+    left:4px;
+    bottom: 0;
+    transition: all 1s;
+    transform: translateY(31px);
+
+}
+.the-second-main-div:hover .color-option-circles{
+    transform: translateY(0);
+}
+.the-top-main:hover .available-color-text{
+    visibility: hidden;
+}
